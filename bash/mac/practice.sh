@@ -1,10 +1,10 @@
 #!/bin/bash
 #for mac
 #create user
-dscl . -create /User/BashUser
+dscl . -create /Users/BashUser
 
 #create group and add user to group
-dscl . create /Groups/practice RealName "Fake Users"
+dscl . create /Groups/practice
 dscl . append /Groups/practice GroupMemembership BashUser
 
 #copy file from other directory
