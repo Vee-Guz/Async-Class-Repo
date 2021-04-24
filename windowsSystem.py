@@ -17,7 +17,7 @@ def main():
       decodeStr = str.decode(encoding)
 
       #look for particular word in each str
-      if (decodeStr.find("OS Name") == 0):
+      if (decodeStr.find("OS") == 0):
          print(decodeStr)
 
       if (decodeStr.find("Registered") == 0):
@@ -25,6 +25,23 @@ def main():
 
       if (decodeStr.find("Product") == 0):
          print(decodeStr)
+
+      if (decodeStr.find("System") == 0):
+         print(decodeStr)
+
+      if (decodeStr.find("BIOS Version") == 0):
+         print(decodeStr)
+
+      if (decodeStr.find("Windows Directory") == 0):
+         print(decodeStr)
+
+      if (decodeStr.find("Time Zone") == 0):
+         print(decodeStr)
+
+      if (decodeStr.find("Total Physical Memory") == 0):
+         print(decodeStr)
+
+
 
 
 if (__name__ == '__main__'):
