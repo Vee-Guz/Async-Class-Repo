@@ -11,13 +11,19 @@ def main():
    #NOTE: lines hold binary strings,to decode use "string".decode("utf8")
 
    # for every str find and print information
-   for (i=0; i<lines.length(); i++)
+   for str in lines:
       encoding = "utf8" #format of current strings
 
-      decodeStr = lines[i].decode(encoding)
+      decodeStr = str.decode(encoding)
 
       #look for particular word in each str
-      if (decodeStr.find("OS Name") == 0)syc
+      if (decodeStr.find("OS Name") == 0):
+         print(decodeStr)
+
+      if (decodeStr.find("Registered") == 0):
+         print(decodeStr)
+
+      if (decodeStr.find("Product") == 0):
          print(decodeStr)
 
 
