@@ -11,6 +11,7 @@ New-LocalUser -FullName "Vision" -NoPassword
 New-LocalUser -FullName "Monica Rambeau" -NoPassword
 New-LocalUser -FullName "Agnes Harkness" -NoPassword
 New-LocalUser -FullName "Agatha" -NoPassword
+New-LocalUser -FullName "Ralph" -NoPassword
 
 #create groups
 New-ADGroup -name HR -GroupScope Global
